@@ -122,13 +122,6 @@ public class main {
                            "|  3. Quit                                                       |\n" +
                            "+----------------------------------------------------------------+" );
     }
-    public static void menuTypeOfUpdateMonHoc(){
-        System.out.println("+----------------------------------------------------------------+\n"+
-                "|  1. Cap nhat ten lop                                           |\n" +
-                "|  2. Cap nhat siso                                              |\n" +
-                "|  3. Quit                                                       |\n" +
-                "+----------------------------------------------------------------+" );
-    }
     public static void main(String[] args) {
         int select;
         ArrayList<Sinhvien> danhsachsinhvien = new ArrayList<Sinhvien>();
@@ -514,6 +507,8 @@ public class main {
                                     break;
                                 }
                                 case 3 : {
+                                    System.out.println("Nhap id cua mon hoc ban can update : ");
+                                    String id_update = scanner.nextLine();
 
                                     break;
                                 }
