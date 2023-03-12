@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2b9ca75-ad18-4794-b54e-df718d5f3a7e" name="Changes" comment="new">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_30__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/protobuf_java_3_19_4__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuanLySinhVien_JDBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edu/file/files/danhsachC6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edu/file/files/danhsachdiemsv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edu/file/files/danhsachlop.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edu/file/files/danhsachmonhoc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edu/file/files/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/DAO/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/DAO/Diemsv_DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/DAO/Lop_DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/DAO/Monhoc_DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/DAO/SinhVien_DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/db/DBTablePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/db/JDBCtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/lib/mysql-connector-java-8.0.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/lib/protobuf-java-3.19.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/model/Diemsv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/model/Lop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/model/Monhoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/model/QuanlySinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/model/Sinhvien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/test/main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MRJyYy2VefGs9iLYVBqYrVha9a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;P:/Dev/Source/Java/JDBC/QuanLySinhVien_JDBC&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="P:\Dev\Source\Java\JDBC\QuanLySinhVien_JDBC\src\com\edu\pro\lib" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edu.pro.test.main" />
+      <module name="QuanLySinhVien_JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edu.pro.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2b9ca75-ad18-4794-b54e-df718d5f3a7e" name="Changes" comment="" />
+      <created>1677724719623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677724719623</updated>
+      <workItem from="1677724720441" duration="8925000" />
+      <workItem from="1677812110930" duration="9327000" />
+      <workItem from="1678007300012" duration="12898000" />
+      <workItem from="1678027487696" duration="11163000" />
+      <workItem from="1678084883548" duration="3812000" />
+      <workItem from="1678101560967" duration="10000" />
+      <workItem from="1678101579523" duration="459000" />
+      <workItem from="1678105544383" duration="14837000" />
+      <workItem from="1678128424739" duration="10000" />
+      <workItem from="1678128442135" duration="3000" />
+      <workItem from="1678165048993" duration="1449000" />
+      <workItem from="1678202220238" duration="6515000" />
+      <workItem from="1678255345239" duration="25000" />
+      <workItem from="1678557628760" duration="4000" />
+      <workItem from="1678590554769" duration="103000" />
+      <workItem from="1678590666199" duration="18000" />
+      <workItem from="1678590691289" duration="6000" />
+      <workItem from="1678631954379" duration="1362000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.ConcurrentModificationException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
