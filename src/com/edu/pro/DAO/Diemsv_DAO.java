@@ -117,7 +117,7 @@ public class Diemsv_DAO implements DAO<Diemsv> {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return null;
+        return result;
     }
 
     @Override
@@ -147,7 +147,7 @@ public class Diemsv_DAO implements DAO<Diemsv> {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return null;
+        return result;
     }
 
     @Override
@@ -178,6 +178,6 @@ public class Diemsv_DAO implements DAO<Diemsv> {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return null;
+        return result;
     }
 }

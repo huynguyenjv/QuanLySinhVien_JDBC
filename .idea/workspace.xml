@@ -5,35 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2b9ca75-ad18-4794-b54e-df718d5f3a7e" name="Changes" comment="new">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_30__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/protobuf_java_3_19_4__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuanLySinhVien_JDBC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edu/file/files/danhsachC6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edu/file/files/danhsachdiemsv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edu/file/files/danhsachlop.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edu/file/files/danhsachmonhoc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edu/file/files/test1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/DAO/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/DAO/Diemsv_DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/DAO/Lop_DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/DAO/Monhoc_DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/DAO/SinhVien_DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/db/DBTablePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/db/JDBCtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/lib/mysql-connector-java-8.0.30.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/lib/protobuf-java-3.19.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/model/Diemsv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/model/Lop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/model/Monhoc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/model/QuanlySinhVien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/model/Sinhvien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edu/pro/test/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/edu/pro/DAO/Diemsv_DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edu/pro/DAO/Diemsv_DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/edu/pro/DAO/Monhoc_DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edu/pro/DAO/Monhoc_DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/edu/pro/test/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edu/pro/test/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,25 +36,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;P:/Dev/Source/Java/JDBC/QuanLySinhVien_JDBC&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "P:/Dev/Source/Java/JDBC/QuanLySinhVien_JDBC",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="P:\Dev\Source\Java\JDBC\QuanLySinhVien_JDBC\src\com\edu\pro\lib" />
@@ -131,8 +106,23 @@
       <workItem from="1678590554769" duration="103000" />
       <workItem from="1678590666199" duration="18000" />
       <workItem from="1678590691289" duration="6000" />
-      <workItem from="1678631954379" duration="1362000" />
+      <workItem from="1678631954379" duration="2590000" />
     </task>
+    <task id="LOCAL-00001" summary="new">
+      <created>1678633390062</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678633390062</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new">
+      <created>1678633470172</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678633470172</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

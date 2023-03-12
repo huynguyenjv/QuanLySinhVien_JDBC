@@ -175,4 +175,13 @@ public class Monhoc_DAO implements DAO<Monhoc>{
         }
         return result;
     }
+    public void printData(){
+        try {
+            Connection connection = JDBCtil.getConnection();
+
+            JDBCtil.printData(connection,"Lop",10);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }

@@ -509,11 +509,18 @@ public class main {
                                 case 3 : {
                                     System.out.println("Nhap id cua mon hoc ban can update : ");
                                     String id_update = scanner.nextLine();
-
+                                    Monhoc monhoc_update = new Monhoc();
+                                    monhoc_update.setId(id_update);
+                                    Monhoc update = Monhoc_DAO.getInstance().selectById(monhoc_update);
+                                    if(update == null){
+                                        System.out.println("Mon hoc khong ton tai");
+                                    }else{
+                                        Monhoc_DAO.getInstance().update(update);
+                                    }
                                     break;
                                 }
                                 case 4 : {
-                                    // print data
+                                    Monhoc_DAO.getInstance().printData();
                                     break;
                                 }
                                 case 5 : {
