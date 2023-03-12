@@ -1,5 +1,6 @@
 package com.edu.pro.test;
 
+import com.edu.pro.DAO.Diemsv_DAO;
 import com.edu.pro.DAO.Lop_DAO;
 import com.edu.pro.DAO.Monhoc_DAO;
 import com.edu.pro.DAO.SinhVien_DAO;
@@ -538,15 +539,53 @@ public class main {
                             scanner.nextLine();
                             switch (select){
                                 case 1 : {
-                                    // them diem
+                                    menuOfCaseOne();
+                                    System.out.print("Moi ban chon lua chon : ");
+                                    select = scanner.nextInt();
+                                    scanner.nextLine();
+                                    switch (select){
+                                        case 1 : {
+                                            quanlySinhVien.insertDiemSv("P:\\Dev\\Source\\Java\\JDBC\\QuanLySinhVien_JDBC\\src\\com\\edu\\file\\files\\danhsachdiemsv.txt");
+                                            danhsachdiemsv = quanlySinhVien.getDanhSach_Diemsv();
+                                            for(Diemsv diemsv : danhsachdiemsv){
+                                                Diemsv_DAO.getInstance().insert(diemsv);
+                                            }
+                                            break;
+                                        }
+                                        case 2 : {
+                                            System.out.print("Filepath : ");
+                                            String filePath = scanner.nextLine();
+                                            quanlySinhVien.insertDiemSv(filePath);
+
+                                            danhsachdiemsv = quanlySinhVien.getDanhSach_Diemsv();
+                                            for(Diemsv diemsv : danhsachdiemsv){
+                                                Diemsv_DAO.getInstance().insert(diemsv);
+                                            }
+                                            break;
+                                        }
+                                    }
                                     break;
                                 }
                                 case 2 : {
-                                    // xoa diem
+                                    System.out.print("Nhap mssv cua sinh vien can xoa : ");
+                                    long mssv_remove = scanner.nextLong();
+                                    System.out.print("Nhap mon hoc cua sinh vien "+mssv_remove+" can xoa : " );
+                                    String mamh_remove = scanner.nextLine();
+
+                                    danhsachdiemsv = Diemsv_DAO.getInstance().selectAll();
+                                    for(Diemsv diemsv :danhsachdiemsv){
+                                        if(diemsv.getId_sinhvien() == mssv_remove && diemsv.getId_monhon().equals(mamh_remove)){
+                                            Diemsv_DAO.getInstance().remove(diemsv);
+                                            System.out.println("Remove complete!");
+                                        }else{
+                                            System.out.println("Khong co sinh vien nao !");
+                                            System.out.println("Remove failure ");
+                                        }
+                                    }
                                     break;
                                 }
                                 case 3 : {
-                                    // update diem
+
                                     break;
                                 }
                                 case 4 : {

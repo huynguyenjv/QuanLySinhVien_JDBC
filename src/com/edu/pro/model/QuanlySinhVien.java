@@ -188,6 +188,30 @@ public class QuanlySinhVien  {
         this.danhSach_Lop.remove(monhoc);
     }
 
+    // insert - remove - update (Diem sinh vien)
+    public ArrayList<Diemsv> insertDiemSv(String filePath){
+        ArrayList<String> dataInFile = loadFile(filePath);
+
+        for(String data : dataInFile ){
+            String[] information =  data.split(",");
+            this.danhSach_Diemsv.add(new Diemsv(Long.parseLong(information[0]),information[1],Float.parseFloat(information[2])));
+        }
+
+        return this.danhSach_Diemsv;
+    }
+
+    public void remove(Diemsv diemsv){
+        this.danhSach_Diemsv.remove(diemsv);
+    }
+
+    public void update(Diemsv diemsv){
+        for(Diemsv diem : this.danhSach_Diemsv){
+            if(diem.getId_sinhvien() == diemsv.getId_sinhvien()){
+                diem.setId_monhon(diemsv.getId_monhon());
+                diem.setScore(diemsv.getScore());
+            }
+        }
+    }
 
     // load files (sinhvien - lop - monhoc - diem)
     public ArrayList<String>  loadFile(String filePath){
@@ -210,5 +234,6 @@ public class QuanlySinhVien  {
         }
         return list;
     }
+
 
 }

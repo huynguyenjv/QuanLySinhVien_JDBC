@@ -14,6 +14,8 @@ public class Diemsv {
         this.score = score;
     }
 
+
+
     public long getId_sinhvien() {
         return id_sinhvien;
     }

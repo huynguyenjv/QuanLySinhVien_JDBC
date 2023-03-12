@@ -180,4 +180,14 @@ public class Diemsv_DAO implements DAO<Diemsv> {
         }
         return result;
     }
+    public void printData(){
+
+        try {
+            Connection connection = JDBCtil.getConnection();
+
+            JDBCtil.printData(connection,"diemsv",10);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2b9ca75-ad18-4794-b54e-df718d5f3a7e" name="Changes" comment="new">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/edu/pro/DAO/Diemsv_DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edu/pro/DAO/Diemsv_DAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/edu/pro/DAO/Monhoc_DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edu/pro/DAO/Monhoc_DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/edu/pro/model/Diemsv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edu/pro/model/Diemsv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/edu/pro/model/QuanlySinhVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edu/pro/model/QuanlySinhVien.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/edu/pro/test/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edu/pro/test/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +26,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d221271b-920a-41bc-b357-aca0dc2d2979" />
+        <option name="url" value="https://github.com/baohuy2k3/QuanLySinhVien_JDBC.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -54,6 +68,13 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory",
+      "repository"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -107,6 +128,7 @@
       <workItem from="1678590666199" duration="18000" />
       <workItem from="1678590691289" duration="6000" />
       <workItem from="1678631954379" duration="2590000" />
+      <workItem from="1678634619719" duration="1467000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1678633390062</created>
@@ -122,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678633470172</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new">
+      <created>1678635039191</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678635039191</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
