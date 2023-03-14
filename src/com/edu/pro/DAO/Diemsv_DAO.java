@@ -21,7 +21,7 @@ public class Diemsv_DAO implements DAO<Diemsv> {
         try {
             Connection connection = JDBCtil.getConnection();
 
-            String sql = "INSERT INTO Monhoc (mssv,mamh,diem) " +
+            String sql = "INSERT INTO Diemsv (mssv,mamh,diem) " +
                     " VALUES (?,?,?)";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setLong(1,  value.getId_sinhvien());

@@ -508,7 +508,7 @@ public class main {
                                     break;
                                 }
                                 case 3 : {
-                                    System.out.println("Nhap id cua mon hoc ban can update : ");
+                                    System.out.print("Nhap id cua mon hoc ban can update : ");
                                     String id_update = scanner.nextLine();
                                     Monhoc monhoc_update = new Monhoc();
                                     monhoc_update.setId(id_update);
@@ -585,11 +585,23 @@ public class main {
                                     break;
                                 }
                                 case 3 : {
-
+                                    System.out.print("Nhap mssv : ");
+                                    long mssv_update = scanner.nextLong();
+                                    System.out.print("Nhap id cua mon hoc ban can update : ");
+                                    String id_update = scanner.nextLine();
+                                    Diemsv diemsv_update = new Diemsv();
+                                    diemsv_update.setId_sinhvien(mssv_update);
+                                    diemsv_update.setId_monhon(id_update);
+                                    Diemsv update = Diemsv_DAO.getInstance().selectById(diemsv_update);
+                                    if(update == null){
+                                        System.out.println("khong ton tai");
+                                    }else{
+                                        Diemsv_DAO.getInstance().update(update);
+                                    }
                                     break;
                                 }
                                 case 4 : {
-                                    // print data
+                                    Diemsv_DAO.getInstance().printData();
                                     break;
                                 }
                                 case 5 : {

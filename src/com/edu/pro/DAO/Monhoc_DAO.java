@@ -21,7 +21,7 @@ public class Monhoc_DAO implements DAO<Monhoc>{
         try {
             Connection connection = JDBCtil.getConnection();
 
-            String sql = "INSERT INTO lop (mamh,tenmh) " +
+            String sql = "INSERT INTO monhoc (mamh,tenmh) " +
                     " VALUES (?,?)";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1,  value.getId());
@@ -65,7 +65,7 @@ public class Monhoc_DAO implements DAO<Monhoc>{
         try {
             Connection connection = JDBCtil.getConnection();
 
-            String sql = " UPDATE Lop " +
+            String sql = " UPDATE monhoc " +
                     "  SET" +
                     " tenmh=?" +
                     "WHERE mamh=?";
