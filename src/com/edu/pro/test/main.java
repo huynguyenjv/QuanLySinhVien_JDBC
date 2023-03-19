@@ -616,6 +616,7 @@ public class main {
                 }
                 // Tim kiem
                 case 2 : {
+
                     break;
                 }
                 // Tong hop
